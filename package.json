@@ -1,0 +1,34 @@
+{
+  "name": "expressstudy",
+  "version": "1.0.0",
+  "description": "エクスプレスの勉強",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www --watch ../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomihiko/expressStudy.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "yomi",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/yomihiko/expressStudy/issues"
+  },
+  "homepage": "https://github.com/yomihiko/expressStudy#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
